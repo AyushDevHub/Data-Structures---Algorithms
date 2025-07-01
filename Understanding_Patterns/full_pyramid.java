@@ -9,14 +9,14 @@ public class full_pyramid {
         System.out.println("Enter the number of rows for the full pyramid pattern:"); // Taking input from user
         int n = sc.nextInt();
         for(int i = 1; i <= n; i++) { // Loop for each row
-            for(int j = 1; j <= n-i; j++) { // Loop for each column in the row
-                System.out.print("  "); // Printing a star followed by a space
+            for(int j = 1; j <= n-i; j++) { 
+                System.out.print("  "); 
             }
-            for(int j = 1; j <= 2*i-1; j++) { // Loop for each column in the row
-                System.out.print("* "); // Printing a star followed by a space
+            for(int j = 1; j <= 2*i-1; j++) { 
+                System.out.print("* "); 
             }
-            for(int j = 1; j <= n-i; j++) { // Loop for each column in the row
-                System.out.print("  "); // Printing a star followed by a space
+            for(int j = 1; j <= n-i; j++) { 
+                System.out.print("  "); 
             }
             System.out.println(); // Move to the next line after printing all columns in the current row
         }
